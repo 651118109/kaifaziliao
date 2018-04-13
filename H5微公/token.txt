@@ -1,0 +1,39 @@
+a6a9e0938e8517a541b9598701e3b18f38dd1119
+
+
+b540a1669544891301568a6b074f3659970afca0
+
+
+849ff7bffdf88a28ce910d698c49988d25a8ab37
+
+
+
+
+http://yq.isart.me/lucky_turntable.html?token=849ff7bffdf88a28ce910d698c49988d25a8ab37
+
+
+
+http://yq.isart.me/play.html?scene_ID=3869
+
+
+
+
+
+
+
+ luckDraw(param,function (ret) {
+                                //µ÷dotÄ£°å
+                                var interText = doT.template($("#message_popup_template").text())
+//                alert(interText);
+                                console.log("dot txt:" + JSON.stringify(txt));
+
+                                var message = msgObj.concat(txt);
+
+                                console.log("dot message:" + JSON.stringify(message));
+
+                                $("#message_popup").html(interText(message))
+
+                                $('#popup').show();
+//                                })
+//                                alert(txt);
+

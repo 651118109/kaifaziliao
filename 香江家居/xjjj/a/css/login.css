@@ -1,0 +1,98 @@
+html,body{ height: 100%;}
+body
+{
+    background: url(../images/bggggg.jpg) center center no-repeat #8599bd;
+    font-size: 12px;
+    font-family: '宋体';
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    float: left;
+}
+img
+{
+    border: 0px;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.clear
+{
+    clear: both;
+}
+
+.dl
+{
+    width: 739px;
+    height: 328px;
+    position: absolute;
+    background: url(../images/logininfo.png) no-repeat;
+}
+.dl1
+{
+    width: 215px;
+    background: url(../images/loginuser.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    border: 0px;
+    margin-top: 123px;
+    margin-left: 285px;
+    color: #494949;
+    height: 34px;
+    padding: 0px 0px;
+    line-height: 34px;
+    padding-left: 30px;
+}
+.dl2
+{
+    width: 215px;
+    background: url(../images/loginpassword.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    border: 0px;
+    margin-top: 22px;
+    margin-left: 285px;
+    color: #494949;
+    height: 34px;
+    padding: 0px 0px;
+    line-height: 34px;
+    padding-left: 30px;
+}
+.dl3
+{
+    width: 119px;
+    background: url(../images/dl3.jpg) no-repeat;
+    border: 0px;
+    float: left;
+    margin-top: 34px;
+    margin-left: 285px;
+    color: #fff;
+    height: 35px;
+    font-weight: bold;
+}
+.dl4
+{
+    width: 119px;
+    background: url(../images/dl4.jpg) no-repeat;
+    border: 0px;
+    float: left;
+    margin-top: 34px;
+    margin-left: 12px;
+    color: #38434d;
+    height: 35px;
+    font-weight: bold;
+}

@@ -1,0 +1,330 @@
+li img
+{
+    float: left;
+    margin-right: 10px;
+}
+/* 网站基本设置LOGO */
+#preview_logo,#preview_logo img
+{
+    width:273px;
+    height:43px;
+}
+#preview_logo
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 43px;
+    margin-bottom: 10px;
+}
+/* Light */
+#preview_light,#preview_light img
+{
+    width:290px;
+    height:325px;
+}
+#preview_light
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 325px;
+    margin-bottom: 10px;
+}
+/* SCENE */
+#preview_scene,#preview_scene img
+{
+    width:280px;
+    height:150px;
+}
+#preview_scene
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Image */
+#preview_image_1,#preview_image_1 img
+{
+    width:384px;
+    height:117px;
+}
+#preview_image_1
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 117px;
+    margin-bottom: 10px;
+}
+#preview_image_2,#preview_image_2 img
+{
+    width:240px;
+    height:40px;
+}
+#preview_image_2
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#preview_image_3,#preview_image_3 img
+{
+    width:240px;
+    height:96px;
+}
+#preview_image_3
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 96px;
+    margin-bottom: 10px;
+}
+#preview_image_4,#preview_image_4 img
+{
+    width:240px;
+    height:48px;
+}
+#preview_image_4
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+#preview_image_5,#preview_image_5 img
+{
+    width:128px;
+    height:110px;
+}
+#preview_image_5
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 110px;
+    margin-bottom: 10px;
+}
+#preview_image_6,#preview_image_6 img
+{
+    width:160px;
+    height:35px;
+}
+#preview_image_6
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+#preview_image_7,#preview_image_7 img
+{
+    width:150px;
+    height:50px;
+}
+#preview_image_7
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+#preview_image_8,#preview_image_8 img
+{
+    width:396px;
+    height:159px;
+}
+#preview_image_8
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 159px;
+    margin-bottom: 10px;
+}
+#preview_image_9,#preview_image_9 img
+{
+    width:450px;
+    height:134px;
+}
+#preview_image_9
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 134px;
+    margin-bottom: 10px;
+}
+#preview_image_10,#preview_image_10 img
+{
+    width:332px;
+    height:134px;
+}
+#preview_image_10
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 134px;
+    margin-bottom: 10px;
+}
+#preview_image_12,#preview_image_12 img
+{
+    width:384px;
+    height:47px;
+}
+#preview_image_12
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 47px;
+    margin-bottom: 10px;
+}
+#preview_image_13,#preview_image_13 img
+{
+    width:252px;
+    height:34px;
+}
+#preview_image_13
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+#preview_image_14,#preview_image_14 img
+{
+    width:252px;
+    height:34px;
+}
+#preview_image_14
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+/* Product */
+#preview_product,#preview_product img
+{
+    width:384px;
+    height:288px;
+}
+#preview_product
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 288px;
+    margin-bottom: 10px;
+}
+#preview_product_logo,#preview_product_logo img
+{
+    width:192px;
+    height:102px;
+}
+#preview_product_logo
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 102px;
+    margin-bottom: 10px;
+}
+
+/* Coupon */
+#preview_coupon_logo,#preview_coupon_logo img
+{
+    width:192px;
+    height:102px;
+}
+#preview_coupon_logo
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 102px;
+    margin-bottom: 10px;
+}
+
+/* Brand */
+#preview_brand_logo,#preview_brand_logo img
+{
+    width:192px;
+    height:102px;
+}
+#preview_brand_logo
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 102px;
+    margin-bottom: 10px;
+}
+#preview_brand,#preview_brand img
+{
+    width:130px;
+    height:160px;
+}
+#preview_brand
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 160px;
+    margin-bottom: 10px;
+}
+
+/* Menu */
+#preview_menu,#preview_menu img
+{
+    width:380px;
+    height:220px;
+}
+#preview_menu
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 220px;
+    margin-bottom: 10px;
+}
+#preview_wap_menu,#preview_wap_menu img
+{
+    width:295px;
+    height:180px;
+}
+#preview_wap_menu
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 180px;
+    margin-bottom: 10px;
+}
+#preview_main_menu,#preview_main_menu img
+{
+    width:295px;
+    height:375px;
+}
+#preview_main_menu
+{
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 375px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+body{font-size:12px; font-family:"微软雅黑"; min-width:1110px; }
+html{ *overflow-x:hidden; }
+*,p,h1,ul,li,input,img,figure,h3,h1,h2,dl,dd,dt{ margin:0px; padding:0px;}
+ul, ol, li, dl, dt, dd {list-style:none;}
+a{text-decoration:none; outline:0px;}
+fieldset, img{ border:0; }
+input[type="text"],input[type="password"],input[type="submit"],input[type="reset"],input[type="button"],textarea{-webkit-appearance: none; border:none; outline:none; }
+.lf { float:left; }
+.rg { float:right; }
+.clear{ clear:both;}
+
+/*404*/
+.sls { width:955px; margin:0 auto; background:url(../images/sls.jpg) no-repeat bottom center; height:400px; }
+.sls p { font-size:30px; color:#e79649; width:100%; text-align:center; padding-top:80px; }
+.sls-content { width:300px; padding:30px 0; margin:0 auto; }
+.sls-content span { font-size:24px; line-height:30px; color:#e79649; margin:0 auto; display:block; width:100%; text-align:center; }
+.sls-content p { font-size:18px; line-height:30px; color:#e79649; padding:5px 0 15px 0; width:280px; margin:0 auto; }
+.sls-content-text1 { width:138px; height:43px; background:#e79649; text-align:center; line-height:43px; font-size:24px; font-weight:normal; margin-top:20px; border:1px solid #c96405; overflow:hidden; border-radius:5px; overflow:hidden; }
+.sls-content-text1 a { color:#fff; display:block; }
+.sls-content-text2 { width:138px; height:43px; text-align:center; line-height:43px; font-size:24px; font-weight:normal; margin-top:20px; border:1px solid #c96405; overflow:hidden; border-radius:5px; overflow:hidden; }
+.sls-content-text2 a { color:#e79649; display:block; }
+
+

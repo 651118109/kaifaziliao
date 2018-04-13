@@ -1,0 +1,28 @@
+
+FTP账号资料
+
+用户：b6_isart_me
+
+密码：72dxn2Ee4b
+
+
+数据库账号资料
+
+数据库名：b6_isart_me
+
+用户：b6_isart_me
+
+密码：dkKdxkeXiM
+
+
+七牛
+
+$accessKey = 'JXanCoTnAoyJd4WclS-zPhA8JmWooPTqvK5RCHXb';
+
+$secretKey = 'ouc-dLEY42KijHeUaTzTBzFeM2Q1mKk_M_3vNpmT';
+
+$auth = new Auth($accessKey, $secretKey);
+
+$bucket = 'twst';
+
+域名未twst.isart.me

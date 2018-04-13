@@ -1,0 +1,1914 @@
+html,body {
+    color: #666;
+    max-width: 640px;
+    margin: 0 auto !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    html {
+        font-size: 17.06px !important;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    html {
+        font-size: 19.2px !important;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+    html {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 499px) {
+    html {
+        font-size: 22.08px !important;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 567px) {
+    html {
+        font-size: 26.66px !important;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 639px) {
+    html {
+        font-size: 30.29px !important;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    html {
+        font-size: 34.13px !important;
+    }
+}
+
+button, a {
+    -webkit-touch-callout: none;
+    -moz-touch-callout: none;
+    -ms-touch-callout: none;
+    touch-callout: none;
+    user-select: none
+}
+
+input {
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.bar:after {
+    background-color: #ddd;
+}
+
+/* 标题栏 */
+.bar-nav {
+    height: 2.63rem;
+    background-color: #fff;
+}
+
+.bar-nav .button-link {
+    color: #d80c18;
+    height: 2.63rem;
+    line-height: 2.63rem;
+}
+
+.bar-nav .title {
+    line-height: 2.63rem;
+    color: #333;
+    font-size: .99rem;
+    width: 15rem;
+    left: 50%;
+    margin-left: -7.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bar-nav~.content {
+    top: 2.63rem;
+}
+
+.bar-header-secondary~.content {
+    top: 4.97rem;
+}
+
+/* 二级菜单 */ 
+.bar-header-secondary {
+    top: 2.63rem;
+}
+
+/* 菜单栏 */
+.bar-tab {
+    height: 2.93rem;
+    z-index: 9999;
+    background: #fafafa;
+}
+
+.bar-tab .tab-item {
+    color: #aaa;
+    height: 2.93rem;
+    border-right: 1px solid #eee;
+}
+
+.bar-tab .tab-item .icon~.tab-label {
+    font-size: .52rem;
+}
+
+.bar-tab .tab-item.active, .bar-tab .tab-item:active {
+    color: #d80c18;
+}
+
+.bar-tab .tab-item .icon {
+    margin-top: 0!important;
+    width: 1.17rem;
+    height: 1.17rem;
+    background-size: 1.17rem 1.17rem;
+}
+
+.bar-tab .icon-h {
+    background-image: url(../img/icon-h.png);
+}
+
+.bar-tab .tab-item.active .icon-h, .bar-tab .tab-item:active .icon-h {
+    background-image: url(../img/icon-h-active.png);
+}
+
+.bar-tab .icon-z {
+    background-image: url(../img/icon-z.png);
+}
+
+.bar-tab .tab-item.active .icon-z, .bar-tab .tab-item:active .icon-z {
+    background-image: url(../img/icon-z-active.png);
+}
+
+.bar-tab .icon-d {
+    background-image: url(../img/icon-d.png);
+    background-size: 1.25rem .996rem !important;
+    background-repeat: no-repeat;
+}
+
+.bar-tab .tab-item.active .icon-d, .bar-tab .tab-item:active .icon-d {
+    background-image: url(../img/icon-d-active.png);
+    background-size: 1.25rem .996rem !important;
+    background-repeat: no-repeat;
+}
+
+.bar-tab .icon-j {
+    background-image: url(../img/icon-j.png);
+}
+
+.bar-tab .tab-item.active .icon-j, .bar-tab .tab-item:active .icon-j {
+    background-image: url(../img/icon-j-active.png);
+}
+
+.bar-tab .icon-a {
+    background-image: url(../img/icon-a.png);
+}
+
+.bar-tab .tab-item.active .icon-a, .bar-tab .tab-item:active .icon-a {
+    background-image: url(../img/icon-a-active.png);
+}
+
+.bar-tab .icon-t {
+    background-image: url(../img/icon-t.png);
+}
+
+.bar-tab .tab-item.active .icon-t, .bar-tab .tab-item:active .icon-t {
+    background-image: url(../img/icon-t-active.png);
+}
+
+.bar-tab .icon-u {
+    background-image: url(../img/icon-u.png);
+}
+
+.bar-tab .tab-item.active .icon-u, .bar-tab .tab-item:active .icon-u {
+    background-image: url(../img/icon-u-active.png);
+}
+
+/* 表单 */
+.list-block .item-inner:after {
+    background-color: #ddd;
+}
+
+/* 优惠券 */ 
+.coupon-list .item-item {
+    height: 4.1rem;
+    border-width: 1px;
+    border-style: solid;
+    padding: .44rem 0;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+    margin-top: .58rem;
+}
+
+.coupon-list .item-item p {
+    margin: 0;
+}
+
+.coupon-list .item-item .item-brand {
+    width: 4.84rem;
+    height: 3.13rem;
+    float: left;
+    padding: 0 .52rem;
+    border-right: 1px solid #ddd;
+}
+
+.coupon-list .item-item .item-brand .item-logo {
+    width: 3.8rem;
+    height: 1.75rem;
+}
+
+.coupon-list .item-item .item-brand .item-total {
+    font-size: .52rem;
+    color: #999;
+    text-align: center;
+}
+
+.coupon-list .item-item .item-info {
+    padding-left: .52rem;
+    float: left;
+}
+
+.coupon-list .item-item .item-title {
+    font-size: .7rem;
+    color: #333;
+    margin-bottom: .19rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-title a{
+    color:#333;
+}
+.coupon-list .item-item .item-tips {
+    font-size: .5273rem;
+    color: #666;
+    margin-bottom: .31rem;
+}
+
+.coupon-list .item-item .item-date {
+    font-size: .52rem;
+    color: #999;
+}
+
+.coupon-list .item-item .item-action {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 5.27rem;
+    border-radius: 3px;
+}
+
+.coupon-list .item-item .item-action .item-value {
+    font-size: 1.75rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    height: 2.25rem;
+}
+
+.coupon-list .item-item .item-action .value-icon {
+    font-size: .7rem;
+}
+
+.coupon-list .item-item .item-action .item-btn {
+    width: 4.39rem;
+    height: 1.46rem;
+    line-height: 1.46rem;
+    font-size: .7rem;
+    border-radius: 3px;
+    margin: 0 auto .39rem;
+    background-color: #fff;
+    border: medium none;
+}
+
+/* 优惠券分色 */
+/* 橙色 */
+.coupon-list .item-item.orange {
+    border-color: #ffdfc7;
+}
+
+.coupon-list .item-item.orange .item-action {
+    background-color: #ff9547;
+}
+
+.coupon-list .item-item.orange .item-action .item-btn {
+    color: #ff9547;
+}
+
+/* 蓝色 */
+.coupon-list .item-item.blue {
+    border-color: #d0e4fd;
+}
+
+.coupon-list .item-item.blue .item-action {
+    background-color: #5aa4ff;
+}
+
+.coupon-list .item-item.blue .item-action .item-btn {
+    color: #5aa4ff;
+}
+
+/* 绿色 */
+.coupon-list .item-item.green {
+    border-color: #c6e9eb;
+}
+
+.coupon-list .item-item.green .item-action {
+    background-color: #57d0d6;
+}
+
+.coupon-list .item-item.green .item-action .item-btn {
+    color: #57d0d6;
+}
+
+/* 红色 */
+.coupon-list .item-item.red {
+    border-color: #fdd1d0;
+}
+
+.coupon-list .item-item.red .item-action {
+    background-color: #fe626c;
+}
+
+.coupon-list .item-item.red .item-action .item-btn {
+    color: #fe626c;
+}
+
+/* 粉色 */
+.coupon-list .item-item.pink {
+    border-color: #fccaeb;
+}
+
+.coupon-list .item-item.pink .item-action {
+    background-color: #e374bd;
+}
+
+.coupon-list .item-item.pink .item-action .item-btn {
+    color: #e374bd;
+}
+
+/* 黄色 */
+.coupon-list .item-item.yellow {
+    border-color: #f4e2c6;
+}
+
+.coupon-list .item-item.yellow .item-action {
+    background-color: #efb765;
+}
+
+.coupon-list .item-item.yellow .item-action .item-btn {
+    color: #efb765;
+}
+
+/* 灰色 */
+.coupon-list .item-item.grey {
+    border-color: #ddd;
+}
+
+.coupon-list .item-item.grey .item-action {
+    background-color: #ccc;
+}
+
+.coupon-list .item-item.grey .item-action .item-btn {
+    color: #666;
+    background-color: #eee;
+}
+
+.coupon-list .item-item .item-action .item-btn.grey {
+    color: #666;
+    background-color: #eee;
+}
+
+/* 下载广告位 */
+.download-bar {
+    height: 2.63rem;
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.bar-tab~.download-bar {
+    bottom: 2.93rem;
+}
+
+.download-bar .download-close {
+    font-size: 1.7rem;
+    line-height: .64rem;
+    color: #fff;
+    float: left;
+    margin-top: .58rem;
+    margin-left: .73rem;
+    display: block;
+}
+
+.download-bar .download-img {
+    width: 2.69rem;
+    height: 3.13rem;
+    position: relative;
+    left: .44rem;
+    top: -.54rem;
+    float: left;
+}
+
+.download-bar p {
+    margin: 0;
+}
+
+.download-bar .download-title {
+    font-size: .7rem;
+    color: #fff;
+    float: left;
+    margin-left: 1rem;
+    margin-top: .36rem;
+}
+
+.download-bar .download-tips {
+    font-size: .58rem;
+    color: #fff;
+}
+
+.download-bar .download-btn {
+    width: 4.6rem;
+    height: 1.46rem;
+    line-height: 1.46rem;
+    background-color: #d80c18;
+    border-radius: 2px;
+    color: #fff;
+    font-size: .7rem;
+    border: medium none;
+    margin: .58rem .58rem .58rem 0;
+    float: right;
+}
+
+.picker-items-col {
+    width: 100%;
+}
+
+/* 特惠预约弹窗 */
+.popup-reserve {
+    width: 16.99rem;
+    height: 14rem;
+    top: 50%;
+    left: 50%;
+    margin-top: -7rem;
+    margin-left: -8.49rem;
+}
+
+.popup-reserve p {
+    margin: 0;
+}
+
+.popup-reserve .content-block {
+    padding: 1.17rem .96rem;
+    margin: 0;
+}
+
+.popup-reserve .reserve-title {
+    font-size: .87rem;
+    text-align: center;
+    height: 2.40rem;
+    line-height: 2.40rem;
+    border-bottom: 1px solid #eee;
+    color: #d80c18;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.popup-reserve .reserve-close {
+    width: .7rem;
+    height: .7rem;
+    line-height: .7rem;
+    font-size: 1rem;
+    color: #999;
+    position: absolute;
+    right: .73rem;
+    top: .73rem;
+}
+
+.popup-reserve .reserve-form .reserve-input {
+    width: 100%;
+    height: 1.75rem;
+    border: 1px solid #d80c18;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.popup-reserve .reserve-form .reserve-button {
+    margin: 1.34rem auto .87rem;
+    width: 5.56rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    background: #d80c18;
+    color: #fff;
+    border: medium none;
+    font-size: .82rem;
+    border-radius: 0;
+}
+
+.popup-reserve .reserve-tips ul, .popup-reserve .reserve-tips li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: .52rem;
+    position: relative;
+}
+
+.popup-reserve .reserve-tips li {
+    padding-left: .41rem;
+    height: .76rem;
+    line-height: .76rem;
+}
+
+.popup-reserve .reserve-tips li:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d80c18;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2.5px;
+}
+
+.popup-reserve .reserve-login {
+    font-size: .52rem;
+    color: #2a76de;
+    margin-top: .5rem;
+}
+
+.popup-reserve .reserve-error {
+    text-align: center;
+    color: #d80c18;
+    font-size: .87rem;
+}
+
+/* 优惠券领取弹窗 */
+/*.popup-coupon {
+    width: 16.99rem;
+    height: 12rem;
+    top: 50%;
+    left: 50%;
+    margin-top: -7rem;
+    margin-left: -8.49rem;
+}
+
+.popup-coupon p {
+    margin: 0;
+}
+
+.popup-coupon .content-block {
+    padding: 1.17rem .96rem;
+    margin: 0;
+}
+
+.popup-coupon .coupon-title {
+    font-size: .7rem;
+    text-align: center;
+    height: 2.40rem;
+    line-height: 2.40rem;
+    border-bottom: 1px solid #eee;
+    color: #d80c18;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.popup-coupon .coupon-close {
+    width: .7rem;
+    height: .7rem;
+    line-height: .7rem;
+    font-size: 1rem;
+    color: #999;
+    position: absolute;
+    right: .73rem;
+    top: .73rem;
+}
+
+.popup-coupon .coupon-form .coupon-input {
+    width: 100%;
+    height: 1.75rem;
+    border: 1px solid #d80c18;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.popup-coupon .coupon-form .coupon-button {
+    margin: 1.34rem auto .87rem;
+    width: 5.56rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    background: #d80c18;
+    color: #fff;
+    border: medium none;
+    font-size: .82rem;
+    border-radius: 0;
+}
+
+.popup-coupon .coupon-login {
+    font-size: .52rem;
+    color: #2a76de;
+    margin-top: .5rem;
+    float: right;
+}
+
+.popup-coupon .coupon-error {
+    text-align: center;
+    color: #d80c18;
+    font-size: .87rem;
+}
+
+#codeigniter_profiler {
+    position: absolute;
+    z-index: 9999999;
+    font-size: .1rem;
+    overflow-y: auto;
+}*/
+
+/* 定位弹出层样式 */
+.location-modal .modal-title {
+    font-size: .76rem;
+}
+
+.location-modal .modal-text {
+    color: #d80c18;
+    font-weight: 700;
+}
+
+/* 登录弹出层 */
+.popup-login {
+    width: 16.99rem;
+    height: 10.5rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -4.98rem;
+}
+
+.popup-login .content-block {
+    margin: 0;
+}
+
+.popup-login .popup-close {
+    height: 2.34rem;
+    line-height: 2.34rem;
+    text-align: right;
+}
+
+.popup-login .popup-close img {
+    display: inherit;
+}
+
+.popup-login .list-block {
+    margin: 0;
+}
+
+.popup-login .list-block .item-content {
+    padding: 0;
+}
+
+.popup-login .list-block li {
+    border: 1px solid #ddd;
+}
+
+.popup-login .list-block li:last-child {
+    margin-top: -1px;
+}
+
+.popup-login .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-login .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-login .list-block .item-input {
+    position: relative;
+}
+
+.popup-login .list-block .bind-info {
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0;
+    font-size: .7rem;
+    padding-left: .75rem;
+    color: #666;
+}
+
+.popup-login .code-btn {
+    font-size: .7rem;
+    color: #2a76de;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 2.15rem;
+    line-height: 2.15rem;
+    display: block;
+    border-left: 1px solid #ddd;
+    padding-left: .5rem;
+}
+
+.popup-login .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+/* 装修预约弹出层 */
+.popup-design {
+    width: 16.99rem;
+    height: 14.648rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -7.324rem;
+}
+
+.popup-design .content-block {
+    margin: 0;
+}
+
+.popup-design .design-header {
+    height: 2.75rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+}
+
+.popup-design .design-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-design .design-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-design .design-header .design-title {
+    font-size: .82rem;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.popup-design .design-header .design-tips {
+    font-size: .52rem;
+    text-align: center;
+    margin: 0;
+}
+
+.popup-design .design-header .design-tips span {
+    color: #d80c18;
+}
+
+.popup-design .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-design .list-block .item-content {
+    padding: 0;
+}
+
+.popup-design .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-design .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-design .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-design .list-block li .item-left .icon-form-name {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-design .list-block li .item-left .icon-form-sex {
+    width: .87rem;
+    height: 1.32rem;
+    background: url(../img/expo/icon3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-design .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-design .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-design .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-design .list-block .item-input {
+    position: relative;
+}
+
+.popup-design .label-checkbox {
+    padding: 0 .5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    box-sizing: border-box;
+    width: 13rem;
+}
+
+.popup-design .label-checkbox:active {
+    background: none !important;
+}
+
+.popup-design .label-checkbox .label-name {
+    font-size: .7rem;
+    color: #333;
+}
+
+.popup-design label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox, .popup-design label.label-checkbox input[type=radio]:checked+.item-media i.icon-form-checkbox {
+    background-color: #d80c18;
+}
+
+.popup-design .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.popup-design .login-link {
+    font-size: .52rem;
+    color: #2a76de;
+    float: right;
+    margin-top: .8rem;
+}
+
+/* 商品预约弹出层 */
+.popup-goods {
+    width: 16.99rem;
+    height: 14rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -7rem;
+}
+
+.popup-goods .content-block {
+    margin: 0;
+}
+
+.popup-goods .goods-header {
+    height: 2.63rem;
+    line-height: 2.63rem;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.popup-goods .goods-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-design .design-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-goods .goods-header .goods-title {
+    font-size: .82rem;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+.popup-goods .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-goods .list-block .item-content {
+    padding: 0;
+}
+
+.popup-goods .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-goods .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-goods .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-goods .list-block li .item-left .icon-form-name {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-goods .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-goods .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-goods .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-goods .list-block .item-input {
+    position: relative;
+}
+
+.popup-goods .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.popup-goods .label-ticket {
+    font-size: .52rem;
+    color: #666;
+}
+
+.popup-goods .label-ticket .item-media {
+    margin-top: .7rem;
+}
+
+.popup-goods label.label-checkbox i.icon-form-checkbox {
+    border-radius: 3px;
+}
+
+.popup-goods label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox {
+    background: #d80c18;
+}
+
+.popup-goods .login-link {
+    font-size: .52rem;
+    color: #2a76de;
+    float: right;
+    margin-top: .7rem;
+}
+
+/* 建材店铺预约弹出层 */
+.popup-supplier {
+    width: 16.99rem;
+    height: 14rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -7rem;
+}
+
+.popup-supplier .content-block {
+    margin: 0;
+}
+
+.popup-supplier .supplier-header {
+    height: 3.22rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: .58rem;
+}
+
+.popup-supplier .supplier-header .supplier-logo {
+    width: 4.98rem;
+    height: 2.05rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.popup-supplier .supplier-header .supplier-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-supplier .supplier-header .supplier-tips {
+    float: left;
+    width: 9.5rem;
+    margin-left: .5rem;
+}
+
+.popup-supplier .supplier-header .supplier-tips p {
+    color: #666;
+    font-size: .52rem;
+    margin-top: .3rem;
+}
+
+.popup-supplier .supplier-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-supplier .supplier-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-supplier .supplier-header .supplier-title {
+    font-size: .82rem;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+.popup-supplier .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-supplier .list-block .item-content {
+    padding: 0;
+}
+
+.popup-supplier .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-supplier .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-supplier .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-supplier .list-block li .item-left .icon-form-name {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-supplier .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-supplier .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-supplier .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-supplier .list-block .item-input {
+    position: relative;
+}
+
+.popup-supplier .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.popup-supplier .label-ticket {
+    font-size: .52rem;
+    color: #666;
+}
+
+.popup-supplier .label-ticket .item-media {
+    margin-top: .7rem;
+}
+
+.popup-supplier label.label-checkbox i.icon-form-checkbox {
+    border-radius: 3px;
+}
+
+.popup-supplier label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox {
+    background: #d80c18;
+}
+
+.popup-supplier .login-link {
+    font-size: .52rem;
+    color: #2a76de;
+    float: right;
+    margin-top: .4rem;
+}
+
+/* 特惠预约预约弹出层 */
+.popup-sale {
+    width: 16.99rem;
+    height: 19rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -9.5rem;
+}
+
+.popup-sale .content-block {
+    margin: 0;
+}
+
+.popup-sale .sale-header {
+    height: 3.22rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: .58rem;
+}
+
+.popup-sale .sale-header .sale-logo {
+    width: 4.98rem;
+    height: 2.05rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.popup-sale .sale-header .sale-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-sale .sale-header .sale-tips {
+    float: left;
+    width: 9.5rem;
+    margin-left: .5rem;
+}
+
+.popup-sale .sale-header .sale-tips p {
+    color: #666;
+    font-size: .52rem;
+    margin-top: .3rem;
+}
+
+.popup-sale .sale-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-sale .sale-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-sale .sale-header .sale-title {
+    font-size: .82rem;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+.popup-sale .sale-detail {
+    padding-top: .58rem;
+    margin-bottom: .70rem;
+}
+
+.popup-sale .goods-logo {
+    width: 7.03rem;
+    height: 4.62rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.popup-sale .goods-logo img{
+    height: 100%;
+    width: 100%;
+    display: block;
+} 
+
+.popup-sale .goods-info {
+    width: 8.03rem;
+    height: 4.62rem;
+    float: left; 
+    margin-left: .3rem;
+}
+
+.popup-sale .goods-info b {
+    font-size: .70rem;
+    display: block;
+    color: #666;
+}
+
+.popup-sale .goods-info s {
+    font-size: .61rem;
+    color: #999;
+    margin-top: .55rem;
+    display: block; 
+}
+
+.popup-sale .goods-info span {
+    font-size: .61rem;
+    color: #999;
+    display: block;
+    font-style: normal;
+}
+
+.popup-sale .goods-info span i {
+    color: #d80c18;
+    font-size: .80rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.popup-sale .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-sale .list-block .item-content {
+    padding: 0;
+}
+
+.popup-sale .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-sale .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-sale .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-sale .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-sale .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-sale .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-sale .list-block .item-input {
+    position: relative;
+}
+
+.popup-sale .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.popup-sale .login-link {
+    font-size: .52rem;
+    color: #2a76de;
+    float: right;
+    margin-top: .4rem;
+}
+
+.popup-sale .bottom em, .popup-sale .bottom span {
+    display: block;
+    font-size: .53rem;
+    color: #666;
+    font-style: normal;
+    padding-left: 1.02rem; 
+    position: relative;
+    margin-top: .35rem;  
+}
+
+.popup-sale .bottom em:before {
+    content: "";
+    width: .67rem;
+    height: .53rem;
+    background: url(../img/expo/gougou.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .1rem;
+    left: .1rem;
+}
+
+/* 优惠券领取弹出层 */
+.popup-coupon {
+    width: 16.99rem;
+    height: 11.4rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -5.7rem;
+}
+
+.popup-coupon .content-block {
+    margin: 0;
+}
+
+.popup-coupon .coupon-header {
+    height: 3.22rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: .58rem;
+}
+
+.popup-coupon .coupon-header .coupon-logo {
+    width: 4.98rem;
+    height: 2.05rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.popup-coupon .coupon-header .coupon-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-coupon .coupon-header .coupon-tips {
+    float: left;
+    width: 9rem;
+    margin-left: .5rem;
+}
+
+.popup-coupon .coupon-header .coupon-tips p {
+    color: #666;
+    font-size: .4rem;
+    margin-top: -.3rem;
+}
+
+.popup-coupon .coupon-header .coupon-tips p b {
+    font-size: .85rem;
+    color: #333;
+}
+
+.popup-coupon .coupon-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-coupon .coupon-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-coupon .coupon-header .coupon-title {
+    font-size: .82rem;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+.popup-coupon .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-coupon .list-block .item-content {
+    padding: 0;
+}
+
+.popup-coupon .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-coupon .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-coupon .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-coupon .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-coupon .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-coupon .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-coupon .list-block .item-input {
+    position: relative;
+}
+
+.popup-coupon .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.popup-coupon .login-link {
+    font-size: .52rem;
+    color: #2a76de;
+    float: right;
+    margin-top: .4rem;
+}
+
+.popup-coupon .bottom em {
+    display: block;
+    font-size: .53rem;
+    color: #666;
+    font-style: normal;
+    padding-left: 1.02rem; 
+    position: relative;
+    margin-top: .35rem;  
+}
+
+.popup-coupon .bottom em:before {
+    content: "";
+    width: .67rem;
+    height: .53rem;
+    background: url(../img/expo/gougou.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .1rem;
+    left: .1rem;
+}
+
+/* 品牌预约弹出层 */
+.popup-brand {
+    width: 16.99rem;
+    height: 10rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -5rem;
+}
+
+.popup-brand .content-block {
+    margin: 0;
+}
+
+.popup-brand .brand-header {
+    height: 3.22rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: .58rem;
+}
+
+.popup-brand .brand-header .brand-logo {
+    width: 4.98rem;
+    height: 2.05rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.popup-brand .brand-header .brand-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-brand .brand-header .brand-tips {
+    float: left;
+    width: 9rem;
+    margin-left: .5rem;
+}
+
+.popup-brand .brand-header .brand-tips p {
+    margin-top: -.3rem;
+}
+
+.popup-brand .brand-header .brand-tips p b {
+    font-size: .8rem;
+    color: #333;
+}
+
+.popup-brand .brand-header .close-popup {
+    position: absolute;
+    right: .8rem;
+    top: 1rem;
+    width: .55rem;
+    height: .52rem;
+}
+
+.popup-brand .brand-header .close-popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-brand .list-block {
+    margin: 0;
+    margin-top: .58rem;
+}
+
+.popup-brand .list-block .item-content {
+    padding: 0;
+}
+
+.popup-brand .list-block li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.popup-brand .list-block li .item-left {
+    width: 1.9rem;
+}
+
+.popup-brand .list-block li .item-left .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-brand .list-block li .item-left .icon-form-phone {
+    width: 1.05rem;
+    height: 1.11rem;
+    background: url(../img/expo/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-brand .list-block .item-media+.item-inner {
+    margin-left: 0;
+}
+
+.popup-brand .list-block .item-title.label {
+    color: #333;
+    width: 3.82rem;
+}
+
+.popup-brand .list-block .item-input {
+    position: relative;
+}
+
+.popup-brand .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+/* 预约成功弹出层 */
+.popup-psuccess {
+    width: 16.99rem;
+    height: 13rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -8.45rem;
+    margin-top: -5rem;
+}
+
+.popup-psuccess .content-block {
+    margin: 0;
+}
+
+.popup-psuccess .psuccess-header {
+    height: 4.98rem;
+    position: relative;
+    padding-top: .3rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 .87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: .58rem;
+}
+
+.popup-psuccess .psuccess-header .psuccess-logo {
+    text-align: center;
+}
+
+.popup-psuccess .psuccess-header .psuccess-logo img {
+    width: 2.11rem;
+    height: 2.11rem;
+    margin: 0 auto;
+}
+
+.popup-psuccess .psuccess-header .psuccess-title {
+    font-size: .99rem;
+    text-align: center;
+}
+
+.popup-psuccess .psuccess-content {
+    font-size: .7rem;
+    text-align: left;
+    color: #666;
+    height: 3rem;
+}
+
+.popup-psuccess .button-success {
+    background: #d80c18;
+    border: 1px solid #d80c18;
+    border-radius: 0px;
+    height: 1.75rem;
+    font-size: .82rem;
+    color: #fff;
+    line-height: 1.75rem;
+    margin-top: .58rem;
+}
+
+.diary-over {
+    font-size: .5rem;
+    text-align: center;
+    padding: 1rem 0 4rem;
+    color: #aaa;
+    background: #f4f4f4;
+    display: none;
+}
+
+.go-top{
+    position: fixed;
+    bottom: 3rem;
+    right: .6rem;
+    border-radius: 2.05rem;
+    width: 2.05rem;
+    height: 2.05rem;
+    border: 1px solid #000;
+    background: url(../img/news/go.png) center no-repeat;
+    background-size: .6rem .76rem;
+    background-color:#7a7a7a;
+    z-index: 99999;
+    display: none;
+}
+
+
+/*轮播公用*/
+/*ul wrapper*/
+#iSlider-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+#iSlider-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#iSlider-wrapper li {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    list-style: none;
+}
+
+#iSlider-wrapper li img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.islider-dot {
+    width: 0.33rem;
+    height: 0.33rem;
+}
+
+/*轮播图*/
+.home-head {
+    position: relative;
+    height: 10.25rem;
+}
+.home-head .swiper-container {
+    height: 10.25rem;
+}
+
+.hx-ad .img {
+    height: 4.77rem;
+    width: 100%;
+}
+
+.home-head .top-img {
+    height: 10.25rem;
+}
+/*关闭按钮*/
+.close-popup img{
+    display: block;
+}
+/**/
+.icon-h{
+    width: 1.17rem;
+    height: 1.05rem;
+    background: url(../img/design/icon-h.png) no-repeat;
+    background-size: 100%;
+    margin-top: .85rem;
+}
+.bar{
+/*    padding-left: .82rem !important;
+    padding-right: .85rem !important;*/
+}
+.photo-browser-caption-active{
+    padding-bottom: 1.1rem!important;
+}
+.photo-browser-caption{
+    padding-bottom: 1.1rem!important;
+}
+
+/* 想家modal样式 */
+.jb-modal-blind {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    z-index: 2000;
+    filter: alpha(opacity = 70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.jb-modal-primary {
+    position: absolute;
+    width: 2.92rem;
+    height: auto;
+    top: 5%;
+    left: 5%;
+    z-index: 2000;
+    background: #FFF;
+}
+
+.jb-modal-primary .jb-modal-header {
+    position: relative;
+    height: 1.84rem;
+    line-height: 1.84rem;
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.jb-modal-primary .jb-modal-header .jb-modal-title {
+    font-size:.70rem;
+    letter-spacing: .02rem;
+    color: #d70c18;
+    display: block;
+    text-align: center;
+}
+
+.jb-modal-primary .jb-modal-header .jb-modal-close {
+    position: absolute;
+    top: .43rem;
+    right: .43rem;
+    width: .52rem;
+    height: .52rem;
+    background:url(../img/expo/close.png) no-repeat;
+    background-size: 100%;
+
+}
+
+.jb-modal-content {
+    padding: 1.17rem;
+}
+
+.jb-modal-loading {
+    background: url(../img/loading/42x42.gif) no-repeat;
+    width: 1.17rem;
+    height: 1.17rem;
+    position: absolute;
+    margin-top: -.61rem;
+    margin-left: -.61rem;
+    top: 50%;
+    left: 50%;
+}
+/*侧边导航*/
+.right-slide{
+    width: 3.13rem;
+    position: absolute;
+    right: 0;
+    bottom: 18%;
+    z-index: 3000;
+
+}
+.right-slide-in li{
+    width: 2.57rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.right-slide img{
+    display: block;
+    height: 2.57rem;width: 2.57rem;
+}

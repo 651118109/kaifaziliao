@@ -1,0 +1,11 @@
+http://yq.isart.me/lucky_turntable.html    幸运大转盘
+
+
+http://yq.isart.me/play.html       播放页面
+
+
+http://yq.isart.me/spots_mes.html    景点信息页面
+
+
+
+部署环境：香江家居服务器

@@ -1,0 +1,139 @@
+.repair-page{
+    background:#d70c18;
+}
+.repair-ticket-btn{
+    margin-top:.58rem;
+}
+.repair-cooperate{
+    margin-top:1.17rem;
+}
+.repair-clearfix{
+    width: 100%;
+}
+.repair-nav-con{
+    margin-top:.64rem;
+}
+.repair-service{
+    margin-top:1.17rem;
+}
+.repair-hot-pic{
+    margin-top:1.17rem;
+}
+.repair-route{
+    margin-top:1.17rem;
+}
+.repair-map{
+    width:100%;
+    height:300px;
+}
+.repair-traffic{
+    background-color: #fff;
+    padding:5px;
+}
+.repair-copy{
+    text-align: center;
+    font-size:.70rem;
+    color:#fff;
+    margin-bottom: 0.75rem;
+}
+
+.repair-product-logo{
+    float:left;
+    width:50%;
+}
+.repair-product-logo-d{
+    width:100%;
+    margin-top:10%;
+}
+.repair-product-image{
+    float:left;
+    width:50%;
+}
+.repair-product-image-d{
+    width:100%;
+}
+.repair-product-box{
+    width:100%;
+    background: #eee;
+    padding:2%;
+    margin-top:0px;
+    font-size: 0.52rem;
+    margin-top:-7px;
+}
+.repair-product-seat{
+    height:7px;
+}
+.repair-hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.color-red{
+    color:red;
+}
+.color-black{
+    color:black;
+}
+.font-weight{
+    font-weight: bold;
+}
+.repair-product-price{
+    font-size: 0.12rem;
+}
+.repair-product-span{
+    color:red;
+    float:left;
+}
+.float-left{
+    float:left;
+}
+
+/*****************************************/
+.tic_login, .end {
+    width: 340px;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    top: 31px;
+    padding: 30px 15px 20px 20px;
+    box-sizing: border-box;
+}
+.tic_input {
+    width: 298px;
+    height: 42px;
+    border: #ccc solid 1px;
+    color: #333;
+    line-height: 42px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    position: relative;
+}
+.tic_input .ipt-label {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+.ipt-box {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+.tic_input .ipt_txt {
+    color: #333;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    width: 220px;
+    float: left;
+    border: 0;
+}
+.repair-about{
+    width:90%;
+    margin:0 auto;
+    background: #fff;
+    padding-bottom: 0.1rem;
+}

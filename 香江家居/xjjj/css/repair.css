@@ -1,0 +1,111 @@
+.repair-product-logo{
+    float:left;
+    width:50%;
+}
+.repair-product-logo-d{
+    width:100%;
+    margin-top:10%;
+}
+.repair-product-image{
+    float:left;
+    width:50%;
+}
+.repair-product-image-d{
+    width:100%;
+}
+.repair-product-box{
+    background: #eee;
+    padding:3%;
+    margin-top:0px;
+    font-size: 12rem;
+    margin-top:-3px;
+    line-height: 30px;
+}
+.repair-product-seat{
+    height:7px;
+}
+.repair-hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.color-red{
+    color:red;
+}
+.color-black{
+    color:black;
+}
+.font-weight{
+    font-weight: bold;
+}
+.repair-product-price{
+    font-size: 0.12rem;
+}
+.repair-product-span{
+    color:red;
+    float:left;
+}
+.repair-product-pic-li{
+    margin-top: 20px;
+}
+.repair-product-pic-li li{
+    width:400px;
+    float:left;
+    margin: 10px 0px;
+}
+.repair-product-pic-li .repair-product-div{
+    width:395px;
+    height:149px;
+    background: #fff;
+    margin:0 auto;
+}
+.repair-product-pic-li li img{
+    width:100%;
+}
+.bg-white{
+    background: #fff;
+}
+.repair-about{
+    margin-top:20px;
+    padding-bottom:20px;
+    background: #fff;
+}
+.repair-about img{
+    max-width: 100%;
+}
+.repair-coupon-logo{
+    width:35%;
+    height:130px;
+    padding:0 5px;
+    margin-top:5px;
+    float:left;
+    border-right:#eee 1px solid;
+}
+.repair-coupon-content{
+    width:45%;
+    padding-right:5px;
+    float:left;
+    border-right:#eee 1px dashed;
+    font-size:14px;
+}
+.repair-coupon-price{
+    margin-top:5px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#d93a49;
+}
+.line-height-20{
+    line-height: 20px;
+}
+.repair-coupon-time{
+    font-size:10px;
+    line-height: 40px;
+    color:red;
+}
+.text-line-3{
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3; 
+}

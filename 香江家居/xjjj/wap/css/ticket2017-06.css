@@ -1,0 +1,551 @@
+/* 清浮动 */
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+img{
+	width: 100%;
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+/* 清浮动 */
+/* .banner{
+	height: 29.15rem;
+} */
+.list-block{
+	margin:0 auto;
+	width: 100%;
+}
+.list-block ul{
+	background: none;
+}
+.list-block ul li{
+	background: #fff;
+	border:#ccc solid 2px;
+	border-radius: .25rem;
+	margin-top: .58rem;
+}
+.list-block ul:before{
+	content: "";
+	background-color: none;
+	height: 0;
+}
+.content .list-block ul:after{
+	content: "";
+	background: #d70c18;
+	height: 0 !important;
+}
+.content .list-block .item-inner:after{
+	content: "";
+	height: 0px;
+}
+.ticket-btn .btn{
+	width: 100%;
+	display: block;
+	background: none;
+	margin:0 auto;
+	border:none;
+	padding: 0px;
+}
+.ticket-btn{
+	color: #fff;
+	font-size:.58rem;
+}
+.main-wap{
+	width: 100%;
+	margin-top: 4.88rem;
+}
+/* 活动亮点开始 */
+.tit{
+	width: 6.59rem;
+	height: .99rem;
+	margin:.58rem auto;
+	text-align: center;
+	font-size: 0.8rem;
+	color:#fff;
+	background: url("../images/tit-bg.png");
+	background-size: 100%;
+}
+.hongbao-img,.youhui-img{
+	width: 17.8rem;
+	margin:.85rem auto;
+}
+.activity-list{
+	/*width: 90%;*/
+	width: 100%;
+	margin:-.58rem auto 1.2rem;
+}
+.activity-list li{
+	width: 48%;
+	float: left;
+	margin-left: 4%;
+	margin-top: .58rem;
+}
+/* 活动亮点开始 */
+
+/* 工厂专供 */
+.factory-list{
+	width: 90%;
+	margin:0 auto;
+	/*text-align: center;*/
+}
+.more{
+	display: block;
+	font-size:.52rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .58rem; 
+}
+.factory-list li{
+	background: #fff;
+	padding:.73rem;
+	margin-top:.11rem; 
+}
+.factory-list li .li-l{
+	width: 6.15rem;
+	height: 3.46rem;
+	border:#ececec solid 1px;
+	position: relative;
+}
+.factory-list li .li-l img{
+	height: 3.46rem;
+}
+.red-8{
+	width: 1.75rem;
+	height:.99rem;
+	background: url(../../img/expo/ticket/red-8.png) no-repeat;
+	background-size: 100%;
+	position: absolute; 
+	top:0;
+	left:0;
+}
+.factory-list li .li-r{
+	width: 8.7rem;
+	/*padding-left: .58rem;*/
+}
+.li-r-tit{
+	color: #333;
+	font-size: .58rem;
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+.prize{
+	font-size: .46rem;
+	color:#999; 
+}
+.prize span{
+	color:#d70c19;
+	margin-right: .29rem; 
+}
+.prize span strong{
+	font-size:.76rem; 
+}
+.yiyu{
+	font-size:.46rem;
+	color: #999;
+	margin-top:.82rem;  
+}
+.yiyu i{
+	font-style: normal;
+	color:#d70c19; 
+}
+.li-btn{
+	display: block;
+	width:3.95rem;
+	height:1.17rem;
+	background:#d70c19;
+	border:none;
+	color: #fff;
+	font-size:.64rem;
+	text-align: center;
+	line-height: 1.17rem; 
+	margin-top: .32rem;  
+}
+/* 工厂专供 */
+.bao-list{
+	width: 90%;
+	margin:0 auto;
+}
+.bao-list li{
+	width: 48%;
+	float: left;
+	background: #fff;
+	margin-left: 4%;
+	margin-bottom: 4%; 
+}
+.bao-list-img{
+	height: 4.68rem;
+	position: relative;
+}
+.bao-list-img .red-8{
+	top:5%;
+	left:2%;
+}
+.bao-name{
+	font-size: .58rem;
+	color: #333;
+	padding-left:.52rem;
+	margin-top: .32rem; 
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+.bao-prize{
+	color: #d70c19;
+	margin-top: .52rem;
+	font-size: .58rem;
+	padding-left: .52rem;
+}
+.bao-prize span em{
+	font-size:.43rem;
+	font-style: normal; 
+}
+.bao-prize span b{
+	font-size: .58rem;
+}
+.bao-btn{
+	width: 6.70rem;
+	height: 1.17rem;
+	display: block;
+	color: #fff;
+	font-size: .64rem;
+	text-align: center;
+	line-height: 1.17rem;
+	background:#d70c19;
+	border:none;
+	margin:.73rem auto; 
+}
+.more-2{
+	margin-top: 0;
+}
+
+/* 优惠券 */
+.youhui-list{
+	width: 90%;
+	margin:0 auto;
+}
+.youhui-list li{
+	background: #fff;
+	height: 5.25rem; 
+	margin-top: .29rem;
+}
+.youhui-l{
+	width:12.12rem;
+	height: 5.27rem;
+}
+
+.youhui-r{
+	width: 4.68rem;
+	text-align: center;
+	height: 5.27rem;
+	background: url(../../img/expo/ticket/orange.png) no-repeat center;
+	background-size: 100%;
+	padding-top: 1.75rem;
+	font-size: .52rem;
+	color: #fff;
+}
+.youhui-r-2{
+	background: url(../../img/expo/ticket/gray.png) no-repeat center;
+	background-size: 100%;
+}
+.youhui-brand{
+	width: 3.55rem;
+	margin-left: .7rem;
+	margin-top: .8rem;
+	margin-right: .7rem;
+	font-size: .58rem;
+	color: #999;
+	text-align: center;
+}
+.youhui-brand img{
+	width: 4rem;
+	height:1.99rem; 
+}
+.youhui-brand span{
+	display: block;
+	margin-top: -.3rem;
+}
+.youhui-prize{
+	height: 5.27rem;
+	font-size: .58rem;
+	color: #333;
+}
+.youhui-prize-top{
+	color:#ff4e58;
+	margin-top: .45rem;
+	position: relative; 
+}
+.youhui-prize-top span{
+	display: inline-block;
+	font-size: .58rem;
+	position: absolute;
+	top:28%;
+	left:-1px;
+}
+.youhui-prize-top strong{
+	font-size: 1.58rem;
+}
+.youhui-prize span{
+	display: block;
+	margin-left: -.22rem;
+	margin-top: -.25rem;
+}
+.youhui-prize em{
+	display: block;
+	font-style: normal;
+	color: #999;
+}
+.ling-btn{
+	width: 4.01rem;
+	height:1.25rem;
+	border:#fff solid 1px;
+	background:#ff803b;
+	border-radius: 1.25rem;
+	text-align: center;
+	color: #fff;
+	font-size: .64rem;  
+}
+.ling-btn-2{
+	background:#b0b0b0;
+}
+.youhui-r span{
+	display: block;
+	margin-top: .64rem;
+}
+/* 优惠券 */
+
+/* 合作品牌 */
+ .nav .nav-li {
+    font-size: .64rem;
+    width: 100%;
+    height: 2.50rem;
+    /* overflow-x: auto;
+    overflow-y:auto; */
+    /*overflow: scroll;*/
+    margin: 0;
+    padding: 0;
+}
+.nav .nav-fo {
+    width: 100%;
+    color: #fff;
+}
+.nav .nav-fo .content-padded{
+	margin:0;
+}
+
+.nav .nav-li .row {
+   width: 30.8rem;
+   height: 1.75rem;
+   border-bottom: 1px solid #fff;
+   margin-left: -3%;
+}
+.nav .nav-li .row .col-25{
+	 width: 18%;
+	 height: 1.75rem;
+	 line-height: 1.75rem;
+	text-align: center;
+	margin-left: 2%
+}
+.nav .nav-li .row .col-25.active{
+	width: 18%;
+	height: 1.75rem;
+	background:#fff;
+	position: relative;
+	color:#d70c18; 
+}
+
+
+.nav .nav-li .row .col-25.active:after{
+	content: "";
+	width: .52rem;
+	height: .36rem;
+	/*background:url(../../img/expo/ticket/triangle.png) no-repeat;*/
+	background-size: 100%; 
+	position: absolute;
+	bottom: -16%;
+	left:50%;
+	margin-left:-.26rem;
+	z-index: 1000000; 
+}
+.nav .nav-li .row .col-25 a{
+	color: #fff;
+	font-size: .70rem;
+}
+.nav-con-in{
+	padding:0 .5rem;
+	display: none;
+} 
+.nav-con-in li{
+	width: 48%;
+	float: left;
+	margin-left: 1%;
+	margin-top:.41rem;
+	background: #fff;
+}
+/*.nav-con-in li a{*/
+	/*display: block;*/
+	/*height: 2.63rem;*/
+	/*background: #fff;*/
+	/*text-align: center;*/
+	/*padding:.23rem 0 0 0;*/
+/*}*/
+/*.nav-con-in li a img{*/
+	/*display: block;*/
+	/*width:3.95rem;*/
+	/*height:2.16rem;*/
+	/*margin: 0 auto;*/
+/*}*/
+/*.nav-con-in li  span{*/
+	/*display: block;*/
+	/*color: #fff;*/
+	/*text-align: center;*/
+	/*font-size: .52rem;*/
+/*}*/
+/* 合作品牌 */
+.col-50-top{
+	/*height: 11.01rem;*/
+}
+.col-top-under{
+	/*height: 5.27rem;*/
+	margin-top:.43rem; 
+}
+.hot-pic-in .col-50{
+	height: 4.98rem;
+	overflow: hidden;
+}
+.hot-pic-in .row{
+	margin-top:.58rem; 
+}
+.hot-line{
+	width: 70%;
+	margin:0.75rem auto;
+	text-align: center;
+}
+.nav .row{
+	overflow: visible !important;
+}
+
+
+
+/*头部*/
+.ticket-logo {
+    float: left;
+    /*height: 1.2rem;*/
+    margin-top: 0.4rem;
+    /*width: 3.89rem;*/
+}
+.ticket-city {
+    color: #d80c18;
+    float: right;
+    font-size: 0.82rem;
+    margin-top: 0.3rem;
+}
+
+/* 更多活动 */
+.more-act-top li{
+	width: 48%;
+	margin-left: 4%;
+	float: left;
+}
+.more-act-top li img{
+	display: block;
+	float: left;
+}
+.more-act-top li .li-top{
+	margin-top:.41rem;
+	overflow: hidden; 
+}
+.more-act-top li .li-top img{
+	display: block;
+	float: left;
+}
+.more-act-bottom li{
+	width: 48%;
+	margin-left: 4%;
+	float: left;
+}
+.more-act-bottom li img,.more-act-top li .li-top img,.more-act-top li img{
+	display: block;
+	float: left;
+	width:100%;
+	height:5.8rem;
+}
+/* 更多活动 */
+
+/* 现场热图 */
+.hot-pic-li li{
+	width: 48%;
+    float: left;
+    margin-left: 4%;
+    margin-top: .58rem;
+}
+.hot-pic-li li img{
+	display: block;
+	float: left;
+	width:100%;
+	height:5.8rem;
+}
+/* 现场热图 */
+
+/* 索票须知 */
+.popup-rule {
+    width: 16.99rem;
+    /*height: 16rem;*/
+	height:auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -7rem;
+    margin-left: -8.49rem;
+}
+
+.popup-rule p {
+    margin: 0;
+}
+
+.popup-rule .content-block {
+    padding: 0;
+    margin: 0;
+}
+
+.popup-rule .rule-title {
+    font-size: .87rem;
+    text-align: center;
+    height: 2.28rem;
+    line-height: 2.28rem;
+    border-bottom: 1px solid #eee;
+    color: #d80c18;
+}
+
+.popup-rule .rule-list {
+    padding: .87rem .7rem;
+}
+
+.popup-rule .rule-list p ,.popup-rule .rule-list div{
+    font-size: .58rem;
+    color: #333;
+    line-height: 1rem;
+}
+
+.popup-rule .rule-list .rule-close {
+    width: 5.56rem;
+    height: 1.46rem;
+    line-height: 1.46rem;
+    font-size: .7rem;
+    background-color: #d80c18;
+    border-radius: 3px;
+    border: medium none;
+    color: #fff;
+    margin: 1.3rem auto;
+}
+/* 索票须知 */

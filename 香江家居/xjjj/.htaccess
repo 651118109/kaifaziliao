@@ -1,0 +1,20 @@
+<IFMODULE mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html$ index.php
+RewriteRule ^leaveword.html$ leaveword.php
+RewriteRule ^success.html$ success.php
+RewriteRule ^product-(.*).html$ product.php?dhid=3&tdhid=$1
+RewriteRule ^about.html$ about.php
+RewriteRule ^coupon.html$ coupon.php?dhid=2
+
+RewriteRule ^wap/index.html$ wap/index.php
+RewriteRule ^wap/index-(.*).html$ wap/index.php?dhid=1&tdhid=$1
+RewriteRule ^wap/leaveword.html$ wap/leaveword.php
+RewriteRule ^wap/success.html$ wap/success.php
+RewriteRule ^wap/product-(.*).html$ wap/product.php?dhid=3&tdhid=$1
+RewriteRule ^wap/about.html$ wap/about.php
+RewriteRule ^wap/coupon.html$ wap/coupon.php?dhid=2
+RewriteRule ^wap/coupon-(.*).html$ wap/coupon.php?dhid=2&tdhid=$1
+</IFMODULE>
+ErrorDocument 404 /404/404.html
